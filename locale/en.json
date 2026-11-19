@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Screen ask",
+    "description": "Hold a mouse side button, drag a screen region, and ask the model about it in a floating panel with its own reasoning-effort selector.",
+    "detail": "docs/DETAIL.md"
+  }
+}

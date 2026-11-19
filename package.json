@@ -1,0 +1,49 @@
+{
+  "name": "dsh-screen-ask",
+  "version": "0.3.0",
+  "description": "Hold X, drag a region, and ask the model about it in a floating desktop window — answers also land in the current DSH session.",
+  "license": "MIT",
+  "type": "module",
+  "private": false,
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "screenshot",
+    "screen-capture",
+    "vision",
+    "ocr",
+    "floating-window"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale",
+    "docs",
+    "icon.svg",
+    "helper",
+    "src",
+    "scripts",
+    "screenshots",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "engines": {
+    "node": ">=22.19"
+  },
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}

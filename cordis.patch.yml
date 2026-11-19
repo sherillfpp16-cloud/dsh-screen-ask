@@ -1,0 +1,14 @@
+- insert:
+    - id: screen-ask
+      name: dsh-screen-ask
+      config:
+        holdKey: "x"
+        sideButton: 1
+        provider: "deepseek-official"
+        model: "deepseek-flash"
+        reasoningEffort: "off"
+        efforts:
+          - "off"
+          - "high"
+          - "max"
+        prompt: "请阅读这张截图：说明它是什么、关键内容有哪些；如果是题目或报错，请给出答案/解决方案和简要依据。回答用中文。"

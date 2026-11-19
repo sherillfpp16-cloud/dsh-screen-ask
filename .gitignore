@@ -1,0 +1,11 @@
+# local runtime data (never commit)
+data/
+helper/bootstrap.args
+*.log
+*.png.tmp
+
+# editors / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini

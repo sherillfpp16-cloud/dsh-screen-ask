@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "屏幕问答",
+    "description": "按住鼠标侧键拖拽框选屏幕区域，在悬浮窗里向模型提问，并单独调节思考程度。",
+    "detail": "docs/DETAIL.md"
+  }
+}
